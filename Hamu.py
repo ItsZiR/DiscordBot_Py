@@ -1,4 +1,5 @@
-import discord, random, asyncio, datetime, json, requests
+﻿import discord, random, asyncio, datetime, json, requests
+
 class MyClient(discord.Client):
     async def on_ready(self):#Log in
         print(f'{self.user}已上線, {datetime.datetime.now()}')#在Console印出上線訊息
